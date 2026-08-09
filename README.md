@@ -6,6 +6,10 @@ What modulink is:
 
 ModuLink is a 90% 3d printed and modular system. It is a system of motors, gears, gearboxes, and many other components that can be used to create anything your heart desires.
 
+# Usage Instructions
+
+Make anything you want!
+
 ## Features
 
 - Modular design
@@ -48,3 +52,11 @@ BOM(Bill of Materials) for this project:
 | 2S 8.4V 2A 18650 Lithium Battery Charger Module Type-C                       | For charging the batteries | N/A                                                                                                                            |            126 |    1.333192253 |        1 | https://robu.in/product/2s-8-4v-2a-18650-lithium-battery-charger-module-type-c/                  |              0 |               126 |       1.333192253 |                   |                   |
 
 This is the BOM for me, but it may be different for you as I already own the motors, and you may own some of these such as the batteries, thus this is not a comprehensive BOM that works for everyone. This BOM is also available as [a file](./BOM.csv)
+
+Notes:
+No PCB file as there are no PCBs(custom) for this project.
+No guide for attaching componenst as this is just the inside of the motor and those instudtions will be there in the repo for the motor shell.
+
+## Wiring
+
+![](/images/readme/wiring.jpeg)
