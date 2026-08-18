@@ -265,6 +265,11 @@ So here is the wiring:
 
 # August 18: Made journals more detailed
 
-I made the journals more detailed, thats it.
+More Feedback!!!:
 
+"hey, can you add some detail to your journals, especially the research ones?" from vulcan
+
+So I made the journals more detailed, thats about it.
+Maybe a bit **too** detailed...
+![](/images/journal/18082026/ss.png)
 **Total time spent: 0.25 hours**
