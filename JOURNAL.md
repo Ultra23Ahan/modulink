@@ -7,7 +7,7 @@ created_at: '2026-05-20'
 
 # May 20: Did research and did a small test print
 
-Researched a about planetary gearboxes, learnt about involute gear teeth, made a small test print of the core of the motor, and adjusted the settings to make it as lighter to reduce resistance. Still have to change settings and modify the design
+So I researched a about planetary gearboxes. I first thought of one like one I found online in the Torospin - Ruco which has a single shaft output by haviing spokes which follow the roation of the planet gears and make the pletary gear system more toroidal but I decided that the motor would make the output faster as if it is fast you can just use gear ratios and make it have more torque. I also learnt about involute gear teeth and how they work(as I thought it would be useful). I decided to use Herringbone gears as they are self aligning and tus the model can be made print-in-place and thus have no assembly required. I made a small test print of the core of the motor, and adjusted the settings to make it as lighter to reduce resistance. Still have to change settings and modify the design.
 
 ![](/images/journal/planetary-gearbox-test.jpeg)
 
@@ -15,7 +15,7 @@ Researched a about planetary gearboxes, learnt about involute gear teeth, made a
 
 # May 21: Printed gears, planned, and designed motor core
 
-I printed these gears, for the second last one from the bottom I heated up the motor and pressed it into the hole, it worked pretty good, but I need to find a better and easier way to hold it in place.
+I printed these gears, for the second last one I heated up the motor and pressed it into the hole, it worked pretty good, but I need to find a better and easier way to hold it in place.
 
 ![](/images/journal/IMG_0494.jpeg)
 
@@ -139,7 +139,7 @@ I was thinking about how I could connect the motor core to the shell of the moto
 
 # June 10: Upgraded shaft
 
-I discovered that the shaft had a weak point(I maaaayyy have dropped an IDEA Skadis on it but we don't talk about that) so I reduced the flat area of the shaft, reduced the amount that the D went, and chamfered the part where it becomes a D.
+I discovered that the shaft had a weak point(I maaaayyy have dropped an IKEA Skadis on it but we don't talk about that) so I reduced the flat area of the shaft, reduced the amount that the D went, and filleted the part where it becomes a D in order to make it stronger.
 
 Photos:
 ![](/images/journal/10062026/IMG_0572.jpeg)
@@ -162,9 +162,9 @@ Photos:
 
 # June 23: Tested finished motor core, planned for the future of the motor
 
-I tested the finished motor core with 1 DC motor, and I observed that it vibrated A LOT, but I think this is mainly due to there only being 1 motor and I think 3 would stabalise it when running at the same time, and also this vibration should be gone when the motor is actually connected to something(hopefully - this is an educated prediction, but a prediction nonetheless). I have alo decided to make the motor shell a different project, and get the batteries and BMS etc for the motor core as this is the part which will actually do the spinning. It would also not make sense to require electronic components for just the shell, and the reason I am making it a different project is because I need the completed final WORKING motor core to design the shell(you might not understand why as of now, but you will understand after the shell in completed).
+I tested the finished motor core with 1 DC motor, and I observed that it vibrated A LOT, but I think this is mainly due to there only being 1 motor and me holding it in my hand a a bit due to the tolerance of the outer ring. I think 3 would stabilize it when running at the same time, and also this vibration should be gone when the motor is actually connected to something(hopefully - this is an educated prediction, but a prediction nonetheless). I have also decided to make the motor shell a different project, and get the batteries and BMS etc for the motor core as this is the part which will actually do the spinning. It would also not make sense to require electronic components for just the shell, and the reason I am making it a different project is because I need the completed final WORKING motor core to design the shell(you might not understand why as of now, but you will understand after the shell in completed).
 
-I have done research and have decided to use 18650 batteries to run this(and a lot of research on the specific 18650 batteries I will be buying because I don't own them, and yes this contradicts my point of them being fairly common but we don't talk abt that), as they are fairly common. I am currently divided between using 2 batteries, 3 batteries in a 3S or 3P configuration, and 4 batteries in a 2P2S confoguration. Currently I am not sure, but I will do some research and see what the best configuration is.
+I did some research on what batteries to use and at first I thought of using alkaline batteries but I checked the types of batteries(yes, almost EVERY single type) and now had a dilemma between 21700s and 18650s. 21700s are more modern and have more capacity, but 18650s are more readily availabe and most people already own them. I wanted this project to be made as cheaply as possible and that meant going with the more readily available option and thus I decided to use 18650 batteries to run this(and a lot of research on the specific 18650 batteries I will be buying because I don't own them, and yes this contradicts my point of them being fairly common but we don't talk abt that). I am currently divided between using 2 batteries, 3 batteries in a 3S or 3P configuration, and 4 batteries in a 2P2S confoguration. Currently I am not sure, but I will do some research later on(aka tomorrow) and see what the best configuration is.
 
 Motor vibration:
 ![](/images/journal/23062026/IMG_0634.jpeg)
@@ -173,7 +173,7 @@ Motor vibration:
 
 # June 24: Selected battery configuration, and did some wiring
 
-I decided to use 2 18650 batteries in a 2S configuration, because I realized that a 2P2S was just too overkill for 3 tiny DC motors, and I don't need 1-3 hrs of continuous runtime, and I don't think anyone else does either, but I will make more battery packs later on after the first one. For now, this is not a battery pack, it is only some loose batteries wired, I am going to make a battery holder later on as a seperate project.
+I decided to use 2 18650 batteries in a 2S configuration, because I realized that a 2P2S was just too overkill for 3 tiny DC motors, and I don't need more than 45 of continuous runtime, and I don't think anyone else does either, but in care they do I will make battery packs later of various sizes after the first one(which is a 2S). For now, this is not a battery pack, it is only some loose batteries wired, I am going to make a battery holder later on as a seperate project.
 
 I attempted to use KiCad but then realized that I don't know how to use it, tried to learn it for some time, then gave up, and I then proceeded to get stuck on the BMS part because KiCad does not have a BMS component and I did not have the knowledge and patience to figure it out, so I made a wiring diagram(using AI).
 
@@ -206,8 +206,8 @@ I also updated the 3MF. Currently it's only for Bambu Studio.
 
 # June 29: Did a bunch of research, started making BOM
 
-I did way too much research on the battery and I couldnt decide between the samsung 30Q and the sony murata vtc6, but I decided the latter as it is(according to the internet and reputable sources I could find) better.
-I just CANNOT find a 2S BMS for the battery, but I found one on robu which is out of stock, so I will use that.
+I did way too much research on the battery. At first I was thinking of using some random 18650s off of Robocraze which were surprisingly cheap. I looked into it more and found out that the batteries are not ideal for....anything basically except very lowend projects(in a 2S at least). I then looked on Robu and found a plethora(yes, plethora).I couldnt decide between the samsung 30Q and the sony murata vtc6, but I decided the latter as it is(according to the internet and reputable sources I could find) better.
+I just CANNOT find a 2S BMS for the battery, but I found one on robu which is out of stock, so I will likely use that.
 
 The BMS I want is the last one of this list:
 ![](/images/journal/29062026/bmss.png)
@@ -219,20 +219,19 @@ Current BOM
 
 # July 4: Finished BOM and thus the project
 
-After a moderate amount of research for the BMS, I finished the BOM, and I think the project is oficially done now!
-The BMS I found is from MakerBazar
+I did research to find the BMS. I looked everywhere that I knew and had this absolutely genius idea of looking at the forge docs as I had remembered that there was a section about reputable marketplaces that accepted HCB cards. I had already checked Robocraze and Robu, and EBhoot was taken down? I then went to MakerBazar and instantly found it :P. So now I finished the BOM, and I think the project is oficially done now!
 
 ![](/images/journal/04072026/ss.png)
 
 The battery holder I selected is currently out of stock, but I presume it will be available soon.
 
-I also decided that the motor shell would have a USB-C port(yes, I have added it to the BOM) so you can charge it directly and then you don't have to use a diferent charger. The only thing I'm unsure about is if the motors will also run while its charging, but that can also been good because if the motors move, they smoothen out the motor core and it runs better overall.
+I also decided that the motor shell would have a USB-C port(yes, I have added it to the BOM) so you can charge it directly and then you don't have to use a diferent charger. The only thing I'm unsure about is if the motors will also run while its charging, but that can also been good because if the motors move, they smoothen out the motor core and it runs better overall. Or you can just disassemble the motor core(aka remove the planetary gear system so only the gears turn).
 
-**Total time spent: 1 hours**
+**Total time spent: 1.25 hours**
 
 # July 22: Made finished wiring diagram
 
-So I(AI) finished the wiring diagram because idk how to use KiCad and its also too overkill for this simple project and diagram.
+So I may have asked AI to make the wiring diagram because idk how to use KiCad and its also too overkill for this simple project and diagram.
 
 ![](/images/journal/21072026/wiring.png)
 
@@ -244,9 +243,9 @@ So, my project got returned(again) and ace6rings gave me stuff to improve on and
 
 "Hey! Cool idea, but I have to return this because your project will most likely not work. Planetary gear systems can take multiple input motors at the same time but having multiple on the planet gears won't work. The motors would need to be perfectly synced for the system to not stall and the wires will go all over the place when it runs. Also, use step files instead of stl in your repo and ai generated wiring diagrams are not allowed."
 
-The motor core will work, I tested it, and you are right about the wires going all over the place BUT only if the outer ring dosen't spin. In my motor core, the outer ring DOES spin, letting the motors stay in one place, and let the shaft still run.
+The motor core will work, I tested it, and you are right about the wires going all over the place BUT only if the outer ring dosen't spin. In my motor core, the outer ring DOES spin, letting the motors stay in one place, and let the shaft still run, with the caveat of the outer ring spinning so I have to find a different way to hold the motor core in place inside the shell.
 
-The motors don't need to be perfectly synced, if one motor is slightly too fast more load will be on that motor and the rest of the motors will work fine, making the shaft stable. I also have a BMS, which _should_ make them more stable and in sync.
+The motors don't need to be perfectly synced, if one motor is slightly too fast more load will be on that motor and the rest of the motors will work fine, making the shaft stable. I also have a balance BMS, which _should_ make them more stable and in sync.
 
 For today I'll only change the stl files into STEP.
 
