@@ -262,3 +262,9 @@ So here is the wiring:
 ![](/images/journal/09082026/wiring.jpeg)
 
 **Total time spent: 0.166 hours**
+
+# August 18: Made journals more detailed
+
+I made the journals more detailed, thats it.
+
+**Total time spent: 0.25 hours**
